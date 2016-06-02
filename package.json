@@ -1,0 +1,23 @@
+{
+  "name": "lusca-76-proof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "real-app/index.js",
+  "scripts": {
+    "start": "node real-app/index.js",
+    "exploit-server": "http-server ./exploit"
+  },
+  "keywords": [],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "lusca": "github:jule-/lusca"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
